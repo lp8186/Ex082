@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     String [][] countries= new String[4][8];
     String [][][] information= new String[4][7][4];
     int remember;
-    String[] n = {"country1","country2","country3","country4","coutry5","country6","country7"};
+    String[] n = {"country1","country2","country3","country4","country5","country6","country7"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
