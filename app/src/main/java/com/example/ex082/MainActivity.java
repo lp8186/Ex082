@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     TextView capitalCity,size,language,song;
     ListView country;
     Spinner mainland;
-    String [][] countries= new String[4][8];
+    String [][] countries= new String[4][7];
     String [][][] information= new String[4][7][4];
     int remember;
     String[] n = {"country1","country2","country3","country4","country5","country6","country7"};
