@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="10" />
+
+    <ListView
+        android:id="@+id/country"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="40" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="40"
+        android:orientation="vertical">
+
+        <Spinner
+            android:id="@+id/mainland"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="40" />
+
+        <TextView
+            android:id="@+id/capitalCity"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:text="Capital City" />
+
+        <TextView
+            android:id="@+id/size"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:text="Population Size" />
+
+        <TextView
+            android:id="@+id/language"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:text="Language" />
+
+        <TextView
+            android:id="@+id/song"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:text="Anthem" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10" />
+    </LinearLayout>
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="10" />
+</LinearLayout>
